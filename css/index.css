@@ -1,0 +1,219 @@
+/* 公共类。。。。。。。。。。。。。。。 */
+
+.sprite {
+    background: url('../images/jd-sprites.png') no-repeat 0 0/200px 200px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/* top.................................... */
+
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.top {
+    min-width: 320px;
+    max-width: 640px;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(222, 24, 27, .5);
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    width: 75px;
+    height: 40px;
+    background-position: 0 -109px;
+    background-origin: content-box;
+    background-clip: content-box;
+    padding: 9px;
+}
+
+.top_in {
+    color: #fff;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.search {
+    /* width: 100%; */
+    height: 40px;
+    overflow: hidden;
+    /* background-color: rgb(36, 9, 9); */
+    position: relative;
+    /* margin: 0 auto;
+    display: inline-block; */
+}
+
+.search input {
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+.top_ico{
+    width: 19px;
+    height: 19px;
+    background-position: -60px -110px;
+    position: absolute;
+    left: 7px;
+    top: 11px;
+}
+/* banner..................................... */
+.banner{
+    width: 100%;
+}
+/* nav.................................... */
+.new{
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.nav>div{
+    float: left;
+    width: 20%;
+    height: 90px;
+    /* background-color: rgb(161, 87, 87); */
+    text-align: center;
+}
+.nav img{
+    width: 40px;
+    height: 40px;
+    margin: 10px auto 6px;
+}
+.nav a{
+    color: #000;
+}
+.new_ico{
+    width: 82px;
+    height: 30px;
+}
+.new_ico img{
+    width: 73px;
+    height: 16px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.new_more a{
+    display: block;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+}
+.new_cot a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-left: 15px;
+}
+/* min.............................. */
+.min_top{
+    height: 30px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.min_top_left{
+    width: 80px;
+    height: 30px;
+    margin-left: 15px;
+    /* background-color: rgb(185, 115, 115); */
+    color: red;
+    line-height: 30px;
+    position: relative;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+.min_top_left i{
+    width: 18px;
+    height: 22px;
+    background-position: -84px -109px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+.min_top_right a{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 15px;
+}
+.min_top_mid{
+    overflow: hidden;
+    height: 30px;
+    padding-top: 7px;
+}
+.min_top_mid span{
+    float: left;
+    margin-left: 3px;
+}
+.min_top_mid span:nth-child(2n-1){
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 3px;
+}
+.min_main{
+    height: 109px;
+    overflow: scroll;
+    background-color: #fff;
+}
+.min_main img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.min_main ul{
+    width: 1000px;
+}
+.min_main li{
+    float: left;
+}
+.min_main a{
+    width: 87px;
+    height: 70px;
+    display: block;
+    /* background-color: #fff; */
+    border-right: 1px solid rgb(156, 150, 150);
+}
+.min_main li p:nth-child(2){
+    color: red;
+    text-align: center;
+    font-weight: 700;
+}
+.min_main li p:nth-child(3){
+    text-align: center;
+    text-decoration: line-through;
+}
+/* main................................. */
+.main div{
+    width: 33.33%;
+    float: left;
+}
+
+/* pro.................................. */
+.pro1 a{
+    float: left;
+    width: 33.33%;
+}
+.pro2 a{
+    float: left;
+    width: 50%;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
